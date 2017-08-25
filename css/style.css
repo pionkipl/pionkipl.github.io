@@ -15,7 +15,8 @@
 	margin-top: 200px;
 }
 .contact-content {
-	padding-bottom: 200px;
+	padding-bottom: 240px;	
+
 }
 .et-hero-tabs { 
   	/*flex-direction: column;*/
@@ -155,7 +156,14 @@ p.skills {
 .socials a:hover {
 	color: #6c1cb2;	
 }
-
+footer {
+	background-color: #222;
+	min-height: 20px;
+}
+footer h3 {
+	color: #fff;
+	margin: 0px;
+}
 	/*Media queries*/
 	@media (max-width: 767px) {
 		h1.my-name, h3.my-name {
