@@ -94,7 +94,7 @@ class StickyNavigation {
     
     onTabClick(event, element) {
         event.preventDefault();
-        let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
+        let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 10;
         $('html, body').animate({ scrollTop: scrollTop }, 900);
     }
     
