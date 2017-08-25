@@ -12,10 +12,11 @@
 	padding-top: 180px;
 }
 .about-content, .skill-content, .portfolio-content, .contact-content {
-	margin-top: 200px;
+	margin: 100px 0;
 }
 .contact-content {
-	padding-bottom: 240px;	
+	padding-bottom: 240px;
+	margin-top: 60px;
 
 }
 .et-hero-tabs { 
