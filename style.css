@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Oswald|Dosis');
+
+.container-fluid {
+	margin: 0px;
+	padding: 0px;
+}
+.container-fluid a, a:active {
+	text-decoration: none;
+	color: #000;
+}
+.names {
+	padding-top: 180px;
+}
+.about-content, .skill-content, .portfolio-content, .contact-content {
+	margin-top: 200px;
+}
+.contact-content {
+	padding-bottom: 240px;	
+
+}
+.et-hero-tabs { 
+  	/*flex-direction: column;*/
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/*position: relative;*/
+	background: #eee;
+	text-align: center;   
+}
+.et-slide {
+	justify-content: center;
+	align-items: center;
+	height: auto;	  
+	background: #eee;
+	text-align: center;   
+}
+.et-hero-tabs h1, 
+.et-slide h1 {
+  font-size: 6rem;
+  margin: 0;
+  letter-spacing: 1rem;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+.et-hero-tabs h2, .et-slide h2 {
+	font-size: 4rem;
+	font-family: 'Baloo Bhaijaan', cursive;
+	margin-bottom: 30px;
+}
+.et-hero-tabs p,
+.et-slide p {
+  font-size: 4rem;  
+  letter-spacing: 0.1rem;
+  opacity: 0.6;
+  text-align: justify;
+  font-family: 'Dosis', sans-serif;
+}
+p.small {
+	font-size: 2.5rem;	
+}
+p.big {
+	font-weight: 6rem;
+}
+p.date {
+	font-size: 1.8rem;
+	font-weight: 800;
+}
+.center p {
+	text-align: center;
+}
+.et-hero-tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;  
+}
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
+}
+.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 3rem;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+.et-hero-tab:hover {
+  color: white;
+  background: #6c1cb2;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #6c1cb2;
+  transition: left 0.3s ease;
+}
+.hr-style {
+	height: 4px;
+	background-color: #6c1cb2; 
+}
+.my-img {
+	width: 60%;	
+}
+.thumbnail {
+	padding: 8px;
+	box-shadow: 0 0 5px #000;
+}
+p.skills {
+	text-align: center;
+	margin: 20px 0;
+}
+.meter { 
+	height: 20px;  
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;	
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+  display: block;
+  height: 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #6c1cb2; 
+  position: absolute;  
+}
+.violet > span {
+  background-color: #6c1cb2
+  background-image: linear-gradient(to bottom, #f1a165, #f36d0a);
+}
+.portfolio-img {
+	width: 100%;
+}
+.socials a i{
+	font-size: 20rem;
+	margin: 60px 20px 0 20px;
+	/*transition: all 1s;*/
+}
+.socials a:hover {
+	color: #6c1cb2;	
+}
+footer {
+	background-color: #222;
+	min-height: 20px;
+}
+footer h3 {
+	color: #fff;
+	margin: 0px;
+}
+	/*Media queries*/
+	@media (max-width: 767px) {
+		h1.my-name, h3.my-name {
+			font-size: 3rem;
+		}
+		a.et-hero-tab {
+			font-size: 1.5rem;
+		}
+		.et-hero-tabs p,
+		.et-slide p {
+		  font-size: 2rem;  
+		  letter-spacing: 0.1rem;		  
+		}
+		.my-img {
+			width: 100%;
+		}
+		.about-content, .skill-content, .portfolio-content, .contact-content {
+			margin-top: 40px;
+		}
+	}
